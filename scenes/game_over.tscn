@@ -1,0 +1,45 @@
+[gd_scene format=3 uid="uid://c7h4b2utptajf"]
+
+[ext_resource type="Script" uid="uid://udlayn38awn4" path="res://scripts/game_over.gd" id="1_xeevv"]
+
+[node name="GameOver" type="Control" unique_id=1784583811]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_xeevv")
+
+[node name="Panel" type="Panel" parent="." unique_id=804932847]
+layout_mode = 0
+offset_right = 482.0
+offset_bottom = 269.0
+
+[node name="Label" type="Label" parent="." unique_id=1217907633]
+layout_mode = 0
+offset_left = 195.0
+offset_top = 78.0
+offset_right = 287.0
+offset_bottom = 101.0
+text = "Game Over!"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="MainMenuBtn" type="Button" parent="." unique_id=2070752702]
+layout_mode = 0
+offset_left = 110.0
+offset_top = 163.0
+offset_right = 187.0
+offset_bottom = 195.0
+text = "Main Menu"
+
+[node name="RestartBtn" type="Button" parent="." unique_id=1363240455]
+layout_mode = 0
+offset_left = 276.0
+offset_top = 163.0
+offset_right = 372.0
+offset_bottom = 195.0
+text = "Restart Level"
+
+[connection signal="pressed" from="RestartBtn" to="." method="_on_restart_btn_pressed"]

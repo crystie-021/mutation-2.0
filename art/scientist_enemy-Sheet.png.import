@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://blyjfm1yxmmcn"
-path="res://.godot/imported/Walls_BG.png-5cb8f0303679bf7c923529cbd828a47a.ctex"
+uid="uid://b2pek56ilru3"
+path="res://.godot/imported/scientist_enemy-Sheet.png-eb2fc334f0950aa96675b57aa5f23c79.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Walls_BG.png"
-dest_files=["res://.godot/imported/Walls_BG.png-5cb8f0303679bf7c923529cbd828a47a.ctex"]
+source_file="res://art/scientist_enemy-Sheet.png"
+dest_files=["res://.godot/imported/scientist_enemy-Sheet.png-eb2fc334f0950aa96675b57aa5f23c79.ctex"]
 
 [params]
 

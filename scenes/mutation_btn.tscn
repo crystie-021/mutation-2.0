@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://i5gvk4p520ds"]
+
+[ext_resource type="StyleBox" uid="uid://mcsprv0n5aov" path="res://art/ui/button_normal.tres" id="1_fj7e8"]
+[ext_resource type="StyleBox" uid="uid://dcyneadblk68" path="res://art/ui/button_selected.tres" id="2_41t87"]
+[ext_resource type="Script" uid="uid://bkwbf0snr715v" path="res://scripts/mutation_btn.gd" id="3_j64jw"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_fj7e8"]
+
+[node name="MutationBtn" type="Button" unique_id=360185281]
+custom_minimum_size = Vector2(50, 50)
+theme_override_font_sizes/font_size = 10
+theme_override_styles/normal = ExtResource("1_fj7e8")
+theme_override_styles/pressed = ExtResource("2_41t87")
+theme_override_styles/hover = ExtResource("2_41t87")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_fj7e8")
+text = "Shell"
+script = ExtResource("3_j64jw")
+
+[connection signal="pressed" from="." to="." method="_on_pressed"]

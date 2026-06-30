@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b3nlitkvy3nwi"
-path="res://.godot/imported/mutant_player-Sheet.png-1bfcda0230ab342bb4e144ea148881bd.ctex"
+uid="uid://dma44or3x2ai"
+path="res://.godot/imported/UI_Heart.png-b2a30515494b4e60c4ccddc447516ef9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/mutant_player-Sheet.png"
-dest_files=["res://.godot/imported/mutant_player-Sheet.png-1bfcda0230ab342bb4e144ea148881bd.ctex"]
+source_file="res://art/ui/UI_Heart.png"
+dest_files=["res://.godot/imported/UI_Heart.png-b2a30515494b4e60c4ccddc447516ef9.ctex"]
 
 [params]
 

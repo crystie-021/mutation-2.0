@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://no4thn4ibcf3"
-path="res://.godot/imported/UI_Heart.png-7011aa99084638f74f1f6b9a5179846f.ctex"
+uid="uid://ds38mc7nln4dc"
+path="res://.godot/imported/mutant_tileset.png-d22d6eb84b764aac44d013cd0ae8fe75.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/UI_Heart.png"
-dest_files=["res://.godot/imported/UI_Heart.png-7011aa99084638f74f1f6b9a5179846f.ctex"]
+source_file="res://art/mutant_tileset.png"
+dest_files=["res://.godot/imported/mutant_tileset.png-d22d6eb84b764aac44d013cd0ae8fe75.ctex"]
 
 [params]
 

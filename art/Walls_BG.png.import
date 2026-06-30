@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bcedst5vm2pjx"
-path="res://.godot/imported/UI_Slot_s.png-36d8ff55bf262e03a14167a5fd09d6e1.ctex"
+uid="uid://vc50st2tl5kc"
+path="res://.godot/imported/Walls_BG.png-7985f53b84fe2124bba7e64eac9e7541.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/UI_Slot_s.png"
-dest_files=["res://.godot/imported/UI_Slot_s.png-36d8ff55bf262e03a14167a5fd09d6e1.ctex"]
+source_file="res://art/Walls_BG.png"
+dest_files=["res://.godot/imported/Walls_BG.png-7985f53b84fe2124bba7e64eac9e7541.ctex"]
 
 [params]
 
