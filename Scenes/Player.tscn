@@ -298,8 +298,9 @@ shape = SubResource("RectangleShape2D_g2els")
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1880076188]
 position = Vector2(0, -16)
 sprite_frames = SubResource("SpriteFrames_gl8cc")
-animation = &"slash"
+animation = &"blink"
 autoplay = "idle"
+frame_progress = 0.29238015
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=2085848399]
 offset = Vector2(4, 4)

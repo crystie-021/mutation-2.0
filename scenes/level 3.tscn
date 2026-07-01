@@ -2,8 +2,6 @@
 
 [ext_resource type="PackedScene" uid="uid://pvrx5jb4wwcu" path="res://scenes/player.tscn" id="2_gu4el"]
 [ext_resource type="Texture2D" uid="uid://ds38mc7nln4dc" path="res://art/mutant_tileset.png" id="3_ov646"]
-[ext_resource type="PackedScene" uid="uid://ck0kx1r3yly28" path="res://scenes/scientist.tscn" id="4_vx7n1"]
-[ext_resource type="PackedScene" uid="uid://oqid4rjges7h" path="res://scenes/rat.tscn" id="5_25uk8"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_obx1f"]
 texture = ExtResource("3_ov646")
@@ -170,10 +168,3 @@ tile_set = SubResource("TileSet_7rebn")
 [node name="leftpointer" type="Marker2D" parent="." unique_id=977936828]
 
 [node name="rightpointer" type="Marker2D" parent="." unique_id=78342157]
-
-[node name="scientist" parent="." unique_id=1062882755 instance=ExtResource("4_vx7n1")]
-position = Vector2(241, 55)
-
-[node name="Rat" parent="." unique_id=1404092030 instance=ExtResource("5_25uk8")]
-position = Vector2(747, 66)
-up_direction = Vector2(0.0024999923, 0.9999969)

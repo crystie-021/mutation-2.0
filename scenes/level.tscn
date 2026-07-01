@@ -4,9 +4,7 @@
 [ext_resource type="Script" uid="uid://bmjlvpgugpuar" path="res://scripts/level_1.gd" id="1_mx8sn"]
 [ext_resource type="Texture2D" uid="uid://tguhwnhpewsk" path="res://art/ceiling_BG.png" id="2_klq6b"]
 [ext_resource type="PackedScene" uid="uid://pvrx5jb4wwcu" path="res://scenes/player.tscn" id="2_w7c3h"]
-[ext_resource type="PackedScene" uid="uid://oqid4rjges7h" path="res://scenes/rat.tscn" id="3_mx8sn"]
 [ext_resource type="Texture2D" uid="uid://vc50st2tl5kc" path="res://art/Walls_BG.png" id="4_2r41h"]
-[ext_resource type="PackedScene" uid="uid://ck0kx1r3yly28" path="res://scenes/scientist.tscn" id="4_ppgk2"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_obx1f"]
 texture = ExtResource("1_6acah")
@@ -331,10 +329,3 @@ collision_mask = 3
 [node name="leftpointer" type="Marker2D" parent="." unique_id=977936828]
 
 [node name="rightpointer" type="Marker2D" parent="." unique_id=78342157]
-
-[node name="scientist" parent="." unique_id=1062882755 instance=ExtResource("4_ppgk2")]
-position = Vector2(278, 23.000004)
-
-[node name="Rat" parent="." unique_id=1404092030 instance=ExtResource("3_mx8sn")]
-position = Vector2(698.00006, 17)
-up_direction = Vector2(0.0024999923, 0.9999969)

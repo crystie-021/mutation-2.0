@@ -7,7 +7,7 @@ class_name Player
 @onready var can_long_jump = false
 @onready var can_tongue = false
 @onready var can_shell = false
-
+@onready var can_idle = true
 @onready var heart_1: Panel = $Camera2D/UI/GridContainer/heart_1
 @onready var heart_2: Panel = $Camera2D/UI/GridContainer/heart_2
 @onready var heart_3: Panel = $Camera2D/UI/GridContainer/heart_3

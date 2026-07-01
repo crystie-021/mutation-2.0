@@ -3,8 +3,6 @@
 [ext_resource type="Script" uid="uid://casmk5ap0q8q5" path="res://scripts/level_2.gd" id="1_jnpkv"]
 [ext_resource type="PackedScene" uid="uid://pvrx5jb4wwcu" path="res://scenes/player.tscn" id="2_1rcsi"]
 [ext_resource type="Texture2D" uid="uid://ds38mc7nln4dc" path="res://art/mutant_tileset.png" id="3_jnpkv"]
-[ext_resource type="PackedScene" uid="uid://ck0kx1r3yly28" path="res://scenes/scientist.tscn" id="4_hqhmd"]
-[ext_resource type="PackedScene" uid="uid://oqid4rjges7h" path="res://scenes/rat.tscn" id="5_5a11g"]
 [ext_resource type="PackedScene" uid="uid://bnei1r53tf63l" path="res://scenes/wall.tscn" id="6_1rcsi"]
 [ext_resource type="Script" uid="uid://dgtoaisr4j3r3" path="res://scripts/wall_trigger.gd" id="7_jnpkv"]
 
@@ -177,13 +175,6 @@ tile_set = SubResource("TileSet_7rebn")
 [node name="leftpointer" type="Marker2D" parent="." unique_id=977936828]
 
 [node name="rightpointer" type="Marker2D" parent="." unique_id=78342157]
-
-[node name="scientist" parent="." unique_id=1062882755 instance=ExtResource("4_hqhmd")]
-position = Vector2(634, 89)
-
-[node name="Rat" parent="." unique_id=1404092030 instance=ExtResource("5_5a11g")]
-position = Vector2(464, 101)
-up_direction = Vector2(0.0024999923, 0.9999969)
 
 [node name="Wall" parent="." unique_id=1573955824 instance=ExtResource("6_1rcsi")]
 position = Vector2(-1, 23)
